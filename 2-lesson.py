@@ -19,15 +19,15 @@ banan = 15000
 jami = olma*4+banan*1
 print(jami)
 # 5 chi misol
-har_kuni = 10000 
- jami_kunlar_soni = 7
- sarflagan_puli = Har_kuni*jami kunlar_soni
- print(sarflagan_puli)
+har_kuni = 10000
+jami_kunlar_soni = 7
+sarflagan_puli = har_kuni * jami_kunlar_soni
+print(sarflagan_puli)
  # 6 chi misol
- jami_konfet = 48
- bolalar_soni=6
- taqsimlash = jami_konfet/bolalar_soni
- print(taqsimlash)
+jami_konfet = 48
+bolalar_soni=6
+taqsimlash = jami_konfet/bolalar_soni
+print(taqsimlash)
 # 7 ci misol
 daqiqa=125
 soat = 125 // 60
@@ -46,8 +46,8 @@ limon = 18050
 necci_kg = 6
 jami = limon * necci_kg
 print(jami)
-som = (18050 % 1000) * 1000
-tiyn = 18050 // 1000
+som = (18050 // 1000) * 1000
+tiyn = 18050 % 1000
 print("som", som)
 print("tiyn" , tiyn)
 #shu misolni ozim oylap tapdim polniy tushinib 1 cida hatosiz ciqardim😎

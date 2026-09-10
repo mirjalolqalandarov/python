@@ -57,12 +57,13 @@ print(a/b)
 #9 chi misol
 talaba = {
     "ism": "Mirjalol",
-    "yosh" :19,
+    "yosh": 19,
     "fan": "Python",
-    "yashash joyi":"yunusobod",
-    }
-    print(talaba["Mirjalol"])
-    print(talaba["fan"])
-    print(talaba["yashash joyi"])
-    print(talaba["yosh"])
-    print(talaba)
+    "yashash joyi": "yunusobod",
+}
+
+print(talaba["ism"])
+print(talaba["fan"])
+print(talaba["yashash joyi"])
+print(talaba["yosh"])
+print(talaba)
