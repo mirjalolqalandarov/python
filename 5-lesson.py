@@ -30,4 +30,27 @@ if a > b :
     print("birinchi son katta")
 else :
     print("ikkinchi son katta")
-    
+#6 ci misol
+a = int(input("Birinchi sonni kiriting: "))
+b = int(input("Ikkinchi sonni kiriting: "))
+amal = input("Amalni kiriting (+, -, *, /): ")
+if amal == "+":
+    print(a + b)
+elif amal == "-":
+    print(a - b)
+elif amal == "*":
+    print(a * b)
+elif amal == "/":
+    print(a / b)
+else:
+    print("Notogri amal")
+#7 ci misol
+narx = float(input("Mahsulot narxini kiriting: "))
+if narx > 100000:
+    chegirma = narx * 10 / 100
+    yakuniy_narx = narx - chegirma
+    print("Chegirma:", chegirma)
+    print("To‘lanadigan summa:", yakuniy_narx)
+else:
+    print("Chegirma yo‘q")
+    print("To‘lanadigan summa:", narx)
