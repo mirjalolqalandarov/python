@@ -45,7 +45,7 @@ elif amal == "/":
 else:
     print("Notogri amal")
 #7 ci misol
-narx = float(input("Mahsulot narxini kiriting: "))
+narx = int(input("Mahsulot narxini kiriting: "))
 if narx > 100000:
     chegirma = narx * 10 / 100
     yakuniy_narx = narx - chegirma
@@ -54,3 +54,15 @@ if narx > 100000:
 else:
     print("Chegirma yo‘q")
     print("To‘lanadigan summa:", narx)
+# 8 ci misol
+yosh = int(input("yoshingizni kiriting?"))
+if yosh > 25 :
+    print("uylangan")
+elif 20 < yosh < 24 :
+    print("uylanishing kerak")
+else :
+    print("hali voyaga yetmagan")
+# 9 ci misol
+
+
+

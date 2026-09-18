@@ -1,39 +1,44 @@
-import turtle
-import math
-import random
+#1 ci misol
+for son in range(1,11):
+    print(son ** 2)
+#bi misol jadval ishlanishi 
+# 2 ci misol
+ism = input("Ismingizni kiriting?")
+for x in range(12):
+    print(ism)
+# 3 ci misol
+for son in range(1,11):
+    print(son + son)
+#minda ketma ket ustina 2 ni qoshib borodi
+# 4 ci misol
+Bir_son = 0
+for son in range(1,11):
+    Bir_son = Bir_son + son
 
-screen = turtle.Screen()
-screen.bgcolor("black")
+print("yigindi", Bir_son)
+#5 ci misol
+for son in range(1,21):
+    if son % 2 == 1:
+        print(son)
+#shoda 5 ci misolda ham juftni ham toqni ciqarishni bir daganda ishlab getdim 21 ci hatorda tenglik 1 ga dang bosa toq 0 qoysak juftlani ciqaradi😎
+#6 ci misol
+sonlar = [13,12,14,17,19]
+eng_katta = sonlar[0]
+for son in sonlar :
+ if son > eng_katta:
+     eng_katta = son
+print("eng katta son", eng_katta)
+#7 ci misol
+sonlar = [2,4,12,13,12]
+for son in sonlar:
+    print(son)
+#8 ci misol
+sonlar = [12,-9,-3,11,19]
+for son in sonlar:
+    if son > 0:
+        print(son)
 
-t = turtle.Turtle()
-t.speed(0)
-t.hideturtle()
-t.pensize(1)
 
-colors = ["red", "blue", "lime", "yellow", "cyan",
-          "magenta", "orange", "pink"]
 
-for i in range(120):
-    t.penup()
-    t.goto(0, 0)
 
-    angle = i * (math.pi * 2) / 120
 
-    x = 16 * (math.sin(angle) ** 3) * 12
-    y = (13 * math.cos(angle)
-         - 5 * math.cos(2 * angle)
-         - 2 * math.cos(3 * angle)
-         - math.cos(4 * angle)) * 12
-
-    c = random.choice(colors)
-    t.color(c)
-
-    t.pendown()
-    t.goto(x, y)
-
-    for _ in range(8):
-        t.forward(6)
-        t.backward(6)
-        t.right(45)
-
-turtle.done()
